@@ -1,0 +1,5 @@
+1. npx create-react-app instagram-clone
+2. git remote add origin https://github.com/HariniS1018/instagram-clone.git
+3. Uninstall the old version: npm uninstall @material-ui/core @material-ui/lab @material-ui/icons
+4. latest MUI packages: npm install @mui/material @emotion/react @emotion/styled
+5. for icons: npm install @mui/icons-material
