@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 
-import NavBar from "../NavBar/NavBar";
-import "./Home.css";
-import Main from "../MainContent/Main";
-class Home extends Component {
+import "./Main.css";
+class Main extends Component {
     constructor(props) {
         super(props);
         this.state = { };
@@ -11,11 +9,10 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <NavBar />
-                <Main />
+                Main Content
             </div>
         );
     }
 }
 
-export default Home;
+export default Main;

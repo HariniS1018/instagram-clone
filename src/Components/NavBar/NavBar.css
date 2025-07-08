@@ -1,0 +1,45 @@
+/* Styling for the overall navigation bar container */
+.navbar_barcontent {
+    background-color: white; /* Common for navbars */
+    border-bottom: 1px solid #dbdbdb; /* A subtle separator at the bottom */
+    padding: 10px 0; /* Vertical padding */
+    height: 54px; /* A common height for Instagram's navbar */
+    display: flex; /* Use flexbox to easily center content if needed */
+    align-items: center; /* Vertically align items in the center */
+}
+
+/* Style for the Instagram logo image */
+.navbar_logo {
+    /* The width is already set inline in the JS: style={{width: "105px"}} */
+    /* You might want to remove the inline style and put it here if preferred */
+    /* width: 105px; */
+
+    /* Center the logo within its Grid item if the Grid item is larger */
+    display: block; /* Important for margin: auto to work horizontally */
+    margin: 0 auto; /* Centers the logo horizontally within its parent Grid item */
+}
+
+/* Styling for the search input field */
+.navbar_barcontent input[type="text"] { /* More specific selector for the input */
+    width: 215px; /* Adjust width as needed */
+    height: 28px; /* Standard input height */
+    border: 1px solid #dbdbdb; /* Light grey border */
+    background-color: #efefef; /* Light background color */
+    border-radius: 3px; /* Slightly rounded corners */
+    padding: 3px 10px; /* Padding inside the input */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    font-size: 14px; /* Readable font size */
+    color: #262626; /* Dark text color */
+    outline: none; /* Remove default focus outline */
+}
+
+.navbar_barcontent input[type="text"]::placeholder {
+    color: #8e8e8e; /* Lighter placeholder text color */
+}
+
+/* Basic styling for the main container wrapper if needed, though often handled by global styles */
+/*
+.navbar_wrapper {
+    width: 100%;
+}
+*/
