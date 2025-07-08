@@ -1,0 +1,119 @@
+.loginpage__main{
+    display: flex;
+    margin-left: 30px;
+    /* margin: 10px; */
+}
+
+.loginpage__logo{
+    width: 175px;
+    margin-top: 25px;
+}
+
+.loginpage__rightcomponent{
+    height: 400px;
+    width: 350px;
+    border: 1px solid #dbdbdb;
+    margin: 25px 25px 0px 30px;
+    text-align: center;
+    background-color: white;
+}
+
+.loginpage__text{
+    width: 250px;
+    margin: 5px;
+    border: 1px solid #dbdbdb;
+    height: 36px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.loginpage__signin{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    margin-top: 25px;
+}
+
+.login__button{
+    width: 270px;
+    height: 36px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid #dbdbdb;
+    margin-top: 5px;
+    background-color: #0095f6; /* 0395f6 */
+    color: white;
+    cursor: pointer;
+}
+
+.login__divider{
+    width: 80px;
+    height: 0px;
+    /* margin-top: 5px; */
+    border: 1px solid #dbdbdb;
+}
+
+.login__ordiv {
+    display: flex; /* Makes it a flex container */
+    align-items: center; /* Vertically centers items along the cross axis (top/bottom) */
+    justify-content: center; /* Horizontally centers items along the main axis (left/right) */
+    margin-top: 20px; /* Add some space above this section, adjust as needed */
+}
+
+.login__or{
+    margin: 0px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #8e8e8e;
+}
+
+.login__fb{
+    color: rgb(53, 121, 234);
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.login__forgot{
+    /* color: rgba(var(--fe0, 0, 55, 107), 1); */
+    font-size: 16px;
+    line-height: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.loginpage__signupoption{
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 56px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+}
+
+.loginpage__signin{
+    margin-top: 20px;
+}
+
+.loginpage_signup{
+    margin-top: 20px;
+}
+
+.loginpage__downloadsection{
+    height: 105px;
+    width: 350px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.loginpage__option{
+    margin-top: 20px;
+}
+
+.loginpage_dwing{
+    margin: 5px;
+}
+
