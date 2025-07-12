@@ -7,6 +7,8 @@ import message from "../../assets/message.jpg";
 import find from "../../assets/search.png";
 import react from "../../assets/explore.jpg";
 import heart from "../../assets/heart.png";
+import { Avatar } from "@mui/material";
+import dp from "../../assets/profile-pic.jpg"
 import "./NavBar.css";
 
 
@@ -31,11 +33,15 @@ class NavBar extends Component {
                         </Grid>
 
                         <Grid size={{ xs: 3 }} style={{ display: "flex" }}>
-                            <img src={home} alt="Home Icon" style={{ width: "25px" }} />
-                            <img src={message} alt="Message Icon" style={{ width: "25px" }} />
-                            <img src={find} alt="Find Icon" style={{ width: "25px" }} />
-                            <img src={react} alt="React Icon" style={{ width: "25px" }} />
-                            <img src={heart} alt="Heart Icon" style={{ width: "25px" }} />
+                            <img className="navbar__img" src={home} alt="Home Icon" style={{ width: "25px" }} />
+                            <img className="navbar__img" src={message} alt="Message Icon" style={{ width: "25px" }} />
+                            <img className="navbar__img" src={find} alt="Find Icon" style={{ width: "25px" }} />
+                            <img className="navbar__img" src={react} alt="React Icon" style={{ width: "25px" }} />
+                            <img className="navbar__img" src={heart} alt="Heart Icon" style={{ width: "25px" }} />
+                            <Avatar
+                                alt="User Avatar" className="navbar_img" style={{ maxWidth: "30px", maxHeight: "30px" }}
+                                src={dp}
+                            />
                         </Grid>
                     </Grid>
                 </div>
